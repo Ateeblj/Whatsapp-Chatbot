@@ -1,0 +1,35 @@
+1.📝 package.json
+
+If you don’t already have one, run:
+
+npm init -y
+
+Then install dependencies:
+
+npm install whatsapp-web.js qrcode-terminal axios
+
+2. Install Dependencies
+npm install
+
+3. Run Ollama Locally
+
+Make sure Ollama
+ is installed and running:
+
+ollama run ateeb-style
+
+4. Start the Bot
+node src/index.js
+
+
+First time, scan the QR code with WhatsApp
+
+The bot will stay logged in automatically
+
+⚙️ Configuration
+
+Modify src/index.js:
+
+Change model: "ateeb-style" to your preferred Ollama model
+
+Adjust temperature or num_predict for response style
